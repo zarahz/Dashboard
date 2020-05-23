@@ -12,7 +12,7 @@
 import { Component, Vue } from 'vue-property-decorator';
 import Header from './components/Header.vue';
 import Overview from './components/Overview.vue';
-import Calendar from './components/Calendar.vue';
+import Calendar from './components/Calendar/Calendar.vue';
 
 @Component({
   components: {
@@ -26,7 +26,7 @@ export default class App extends Vue {
 </script>
 
 <style lang="scss">
-.table-structure {
-  display: table;
-}
+  .table-structure {
+    display: table;
+  }
 </style>

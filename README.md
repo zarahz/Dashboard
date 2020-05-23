@@ -1,3 +1,9 @@
+# TODO
+[ ] BUG: Shared events (between two users, where the current user is not the creator) are completely removed upon unchecking the second users calendar  
+[ ] alignment and coloring of calendar list  
+[ ] beautify calendar options  
+
+
 # app-store
 
 ## Project setup

@@ -32,11 +32,11 @@ import AppContainer from './AppContainer.vue';
 })
 export default class Overview extends Vue {
     list= [
-      { name: 1, id: 0 },
-      { name: 2, id: 1 },
-      { name: 3, id: 2 },
-      { name: 4, id: 3 },
-      { name: 5, id: 4 },
+      { name: 'TodoList', id: 0 },
+      { name: 'Gabo card game', id: 1 },
+      { name: 'Snake', id: 2 },
+      { name: 'Hangman', id: 3 },
+      { name: 'Reptile tour crawler', id: 4 },
       { name: 6, id: 5 },
       { name: 7, id: 6 },
       { name: 8, id: 7 },

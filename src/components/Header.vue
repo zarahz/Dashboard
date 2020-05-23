@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-xs-8">
-      <h1>{{ (user) ? 'Welcome Back '+user.name + '!' : 'Dashboard' }}</h1>
+      <h1>{{ (user) ? 'Welcome Back '+user.firstName + '!' : 'Dashboard' }}</h1>
     </div>
     <div class="col-xs-4">
       <div class="row">
